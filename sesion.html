@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Usuario</title>
+    <link rel="stylesheet" href="perfil.css">
+</head>
+<body>
+    <header class="profilenav">
+        <nav>
+            <ul>
+                <li><a href="#profile">Modificar Perfil</a></li>
+                <li><a href="#packages">Paquetes de Viajes Comprados</a></li>
+                <li><a href="#wishlist">Wishlist</a></li>
+                <li><a href="index.html">Sign Out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="profilemain">
+        <section id="profile">
+            <h2>Modificar Perfil</h2>
+            <!-- Formulario para modificar perfil -->
+            <form id="modifyProfileForm">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button type="submit">Guardar Cambios</button>
+            </form>
+        </section>
+        <section id="packages">
+            <h2>Paquetes de Viajes Comprados</h2>
+            <!-- Lista de paquetes de viajes comprados -->
+            <ul>
+                <li>Paquete 1: Paquete aventurero San Rafael</li>
+                <li>Paquete 2: Paquete senderismo Bariloche</li>
+                
+            </ul>
+        </section>
+        <section id="wishlist">
+            <h2>Wishlist</h2>
+            <!-- Lista de deseos -->
+            <ul>
+                <li>Su lista de deseos se encuentra vacia</li>
+                
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
